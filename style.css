@@ -144,7 +144,6 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-               <img title='welcome' id='homeimage' src="backgroundshort.PNG" />
  /* width: 100%; */
     height: auto;
    
@@ -152,7 +151,7 @@ body {
 
 .homeimage {
     /* height: 400px; */
-    width: 100%;
+    width: 100vw;
     margin: 0px;
     padding: 0px;
     top:0;
