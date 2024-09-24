@@ -53,7 +53,8 @@ body {
     position: relative;
     float: left;
     margin: 0px;
-    color: #794faf;
+    color: white;
+    margin-left:25px;
 }
 
 #mylogo{
@@ -170,7 +171,6 @@ body {
     height: auto;
     padding:0px auto;
     justify-content: baseline;
-    align-items: flex-start;
     background-color: #794faf;
     /* width: 100%; */
 }
@@ -200,10 +200,17 @@ body {
     margin-top:0px;
 
 }
+
+#inqbutton{
+    background-color: #241734;
+    position: relative;
+    margin-top:25px;
+}
 /* ----------------------------WIDGETS------------------------------ */
 .widgets {
+    width:90%;
   padding-top: 50px;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     position: relative;
     align-items: center;
@@ -212,16 +219,18 @@ body {
 
 .widget {
     background-color: #794faf;
-    width: 80%;
-    height: 350px;
+    width: 40%;
+    height: 250px;
     margin: 25px;
     margin-top:0px;
     position: relative;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     text-align: center;
     align-items: center;
     box-shadow: 0px 0px 20px#794faf70;
     border-top:4px solid white;
+    display: inline-flex;
+    flex-direction: row;
 }
 
 .widgetwrap{
@@ -338,11 +347,48 @@ body {
 
 }
 
-#gridbackground{
+#stack, #stack2{
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    z-index: 1;
-    width: 90%;
 }
+
+
+
+#gridbackground, #gridbackgroundfy, #gridbackgroundf, #gridbackgroundy{
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    float:left;
+    left:0;
+}
+
+#stack2{
+    transform: scaleX(-1);
+}
+/* 
+#gridbackgroundfy {
+    transform: scaleX(-1);
+
+    
+}
+
+
+
+
+#gridbackgroundy{
+    transform: scaleX(1);
+
+} */
+
+#gridbackgroundf,  #gridbackgroundy{
+    transform: scaleY(-1);
+
+}
+
+
+
+
 /* ----------------------------------------------------------------------------- */
 
 .sectiontitle,
@@ -512,6 +558,7 @@ body {
     margin-top: 50px;
     padding-bottom: 50px;
     text-align: center;
+    z-index:5;
 
 }
 
@@ -545,6 +592,7 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
+    position: relative;
 }
 
 .inp {

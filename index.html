@@ -16,6 +16,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
+    <script src="/Components/Navbar.js" type="text/javascript"></script>
+
 
 </head>
 
@@ -38,65 +40,66 @@
             </div>
         </div>
         <!-- LANDING PAGE -->
-        <img id='mlogo' title="logo" src="mylogo.svg"/>
+        <img id='mlogo' title="logo" src="mylogo.svg" />
         <div id="headerimage">
             <img title='welcome' class='homeimage' src="backgroundshort.PNG" />
-
             <div id="hometitles" class="container">
-
-                <h1 id="hometitle" class="sectiontitle"><p id="hometit"></p>Small Business Website Design</h1>
+                <h1 id="hometitle" class="sectiontitle">
+                    <p id="hometit"></p>Small Business Website Design
+                </h1>
                 <!-- <h2 id="homesubtitle">
                     Offering premier web design solutions for small businesses.
                 </h2> -->
                 <p id="hometext">
-                At LGNY, we value consistency and professionalism. As a small business ourselves, we understand the
-                importance of clear communication, efficient response times, and exquisite results. <br /> <br />
-                By working with us, you're getting more than just a webpage. You're also getting: <br /> <br />
+                    At LGNY, we value consistency and professionalism. As a small business ourselves, we understand the
+                    importance of clear communication, efficient response times, and exquisite results. <br /> <br />
+                    By working with us, you're getting more than just a webpage. You're also getting: <br /> <br />
                 - Longterm site maintenance <br />
                 - Unlimited hassle-free page edits <br />
                 - Custom forms and pages <br />
                 - Access to our in-house graphic designer <br />
                 - Copywriting services<br />
                 - Google Analytics management <br />
-            </p>
+                </p>
+                <a type="button" id='inqbutton' class="button" href="contact.html">Inquire Today</a>
             </div>
             <img title='welcome' class='homeimage' src="bottomchevron.png" />
 
         </div>
         <!-- WIDGETS -->
-        <div class="widgets">
-            <div class="widget">
-                <div class="widgetwrap">
+        <!-- <div class="widgets">
+            <div class="widgetwrap">
+                <div class="widget">
                     <img title="widget" class="widgetimage" src="1.svg" />
-                    <p class="widgettitle">Fast Loading Times</p>
+                    <p class="widgettitle">Longterm site maintenance</p>
                 </div>
-                <p class="widgettext">
-                    Our websites are coded from scratch. We do not use WordPress or any other site builders.
-                    This means that your website will load faster than most built with an external framework as it is
-                    only made up of the elements it needs, and does not have to load any excess resources.
-                </p>
-            </div>
-            <div class="widget">
-                <div class="widgetwrap">
-                    <img title="widget" class="widgetimage" src="2.svg" />
-                    <p class="widgettitle">Custom Designs</p>
+                <div class="widget">
+                    <img title="widget" class="widgetimage" src="1.svg" />
+                    <p class="widgettitle">Unlimited hassle-free page edits</p>
                 </div>
-                <p class="widgettext">
-                    Because our websites are built by hand, they are fully customizable to fit your business' needs and
-                    aesthetics. <br /><br />
-                    You'll also have access to unlimites page edits, so your website evolves as your business does.
-                </p>
-
             </div>
-            <div class="widget">
-                <div class="widgetwrap">
-                    <img title="widget" class="widgetimage" src="3.svg" />
-                    <p class="widgettitle">Mobile-Oriented Approach</p>
+            <div class="widgetwrap">
+                <div class="widget">
+                    <img title="widget" class="widgetimage" src="1.svg" />
+                    <p class="widgettitle">Custom webpages and forms</p>
                 </div>
-                <p class="widgettext">About 60% of all web traffic is done from mobile devices. We code with a
-                    mobile-first approach, ensuring fast loading speeds and flawless design when it matters most. </p>
+                <div class="widget">
+                    <img title="widget" class="widgetimage" src="1.svg" />
+                    <p class="widgettitle">Access to our in-house graphic designer</p>
+                </div>
             </div>
-        </div>
+            <div class="widgetwrap">
+                <div class="widget">
+                    <img title="widget" class="widgetimage" src="1.svg" />
+                    <p class="widgettitle">Copywriting services</p>
+                </div>
+                <div class="widget">
+                    <img title="widget" class="widgetimage" src="1.svg" />
+                    <p class="widgettitle">Google Analytics management</p>
+                </div>
+            </div>
+        
+        </div> -->
         <!-- FAQ BOX -->
         <div id="faq" class="container">
             <p id="faqtitle" class="sectiontitle">FAQs About Small Business Websites</p>
@@ -150,13 +153,13 @@
                 </p>
             </div>
             <!-- <div class="faq"> -->
-                <!-- <div class="faqhead">
+            <!-- <div class="faqhead">
                     <h1 class="faq1">
                         Why use LGNY for my small business' website?
                     </h1>
                     <button class="faqbutt" id="faqbutt3" type="button" onClick="showFAQ('faqbutt3')">+</button>
                 </div> -->
-                <!-- <p class="faq2" id="faqbutt3text">
+            <!-- <p class="faq2" id="faqbutt3text">
                     At LGNY, we value consistency and professionalism. As a small business ourselves, we understand the
                     importance of clear communication, efficient response times, and exquisite results. <br /> <br />
                     By working with us, you're getting more than just a webpage. You're also getting: <br /> <br />
@@ -170,10 +173,16 @@
             <!-- </div> -->
             <a id="faqbutton" class="button" href="about.html">Learn More</a>
         </div>
+       
+     
 
         <!-- MAP -->
         <div id="map" class="container">
-            <!-- <img title='img' id='gridbackground' src="grid.svg"/> -->
+            <div id="stack">
+                <img title='img' id='gridbackgroundf' src="lines.png"/>
+    
+                <img title='img' id='gridbackground' src="lines.png"/>
+            </div>
             <p id="maptitle" class="sectiontitle">Headquartered on Long Island</p>
             <iframe id='mapframe'
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1545165.0280190497!2d-72.94907540000005!3d40.85210950000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e84454e1eea5cb%3A0x1df7f96186940d18!2sLong%20Island!5e0!3m2!1sen!2sus!4v1726576995696!5m2!1sen!2sus"
@@ -182,6 +191,10 @@
         <!-- CONTACT   -->
 
         <div id="form2" class="container">
+            <div id="stack2">
+                <img title='img' id='gridbackgroundy' src="lines.png"/>
+                <img title='img' id='gridbackgroundfy' src="lines.png"/>              
+            </div>
             <div class="contact" id="homecontact">
                 <h2 id="contacttitle" class="sectiontitle">Get in Touch</h2>
                 <h3 id="contactsubtitle" class="container">Please allow 3-5 business days for an email response</h3>
