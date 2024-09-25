@@ -87,7 +87,7 @@ li {
 .dropbtn {
     background-color: #00000000;
     /* width: 100px; */
-    height: auto;
+    height: 100%;
     color: white;
     font-size: 36px;
     border: none;
@@ -111,6 +111,7 @@ li {
     width: 30px;
     overflow: visible;
     align-items: end;
+    height:100%
 }
 
 .dropdown-content {
