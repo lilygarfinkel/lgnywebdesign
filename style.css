@@ -165,6 +165,11 @@ li {
     grid-column: 1;
 }
 
+#contact-title{
+    margin:0;
+    margin-top:10px;
+}
+
 #landing-contact-form {
     grid-row: 1;
     grid-column: 1;
@@ -175,17 +180,48 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 25px;
-    padding:10px;
-    /* width: 80%; */
+    padding:25px;
+    width: 70%;
     position: relative;
 }
 
 #message {
-    height: 200px;
+    height: 100px;
 }
 
 #contact-form {
-    width: 80%;
+    width: 90%;
     height: auto;
+   
+}
+
+#names{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+
+
+}
+
+.inpN{
+    width:50%;
+    border:none;
+    padding:5px ;
+    margin: 3px 0px;
+
+}
+
+.inp{
+    width:100%;
+    padding:5px;
+    border:none;
+    margin: 3px 0px;
+
+}
+
+#contactbutton{
+    width: 100%;
+    margin: 10px 0px;
 }
