@@ -161,6 +161,7 @@ li {
     z-index: -1;
     position: absolute;
     right: 0;
+    width:100%;
 }
 
 #landing-contact-form {
