@@ -77,6 +77,7 @@
         </div>
         <div id="landing-seo" class="container">
             <img alt="" id='landing-seo-image' src="figma/seo-background.svg"/>
+           <h1 id="seotitle" class="">We make your website easy to find</h1>
             <div class="container">
                 <img alt="" class='landing-seo-icon'src="globe.svg"/>
                 <h3 class="landing-seo-text">Web Accessibility</h3>
@@ -96,9 +97,31 @@
             </a>
             <div id="smallblob" class="container">
                 <img id='smallblob-image'alt="" src="smallblob.svg"/>
-                <p><b>At LGNY, we value consistency and professionalism. As a small business ourselves, we understand the importance of clear communication, efficient response times, and exquisite results.</b> </p>
+                <p id="smallblob-text"><b>At LGNY, we value consistency and professionalism. As a small business ourselves, we understand the importance of clear communication, efficient response times, and exquisite results.</b> </p>
             </div>
+            
 
+            <div id="landing-contact" class="container">
+                <div id="landing-contact-form">
+                    <h2 id="contact-title" class="sectiontitle">Get in Touch</h2>
+                   <h3 class="contact-subtitle">Contact us and</h3>
+                    <div id="contact-form">
+                        <form class='form' action="https://formspree.io/f/mzzpqddq" method="POST">
+                            <input type="hidden" name="_subject" value="Contact request from personal website" />
+                            <div id="names">
+                                <input type="text" name="_fname" class="inpN" placeholder="First Name" required>
+                                <input type="text" name="_lname" class="inpN" placeholder="Last Name" required>
+                            </div>
+                            <input type="email" name="_replyto" class="inp" placeholder="Email Address" required>
+                            <textarea name="message" class='inp' id='message' placeholder="Type your message"
+                                required></textarea><br/>
+                            <button type="submit" id="contactbutton" class="button">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <img alt="" id="contact-image" src="figma/contact-background.svg"/>
+
+            </div>
 
 
         </div>

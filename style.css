@@ -1,10 +1,21 @@
+html {
+    /* display: table; */
+    margin: auto;
+    overflow: auto;
+}
+
+
 body {
     font-family: "Montserrat", sans-serif;
-    margin: 0px;
-    /* overflow:hidden; */
-    /* width: 100vw;
-    height:100vh; */
-    
+    /* margin: auto; */
+
+    /* overflow:auto;
+    width: 100vw;
+    height:100vh;
+    padding:0px; */
+    display: flex;
+    flex-direction: column;
+
 }
 
 .container {
@@ -16,8 +27,8 @@ body {
 
 }
 
-.divider{
-   margin-top:auto;
+.divider {
+    margin-top: auto;
 
 }
 
@@ -35,21 +46,21 @@ body {
 }
 
 
-.main-subtitle{
+.main-subtitle {
     font-size: medium;
 }
 
-li{
+li {
     list-style-type: none;
     display: flex;
-    align-items:  center;
+    align-items: center;
 
 }
 
 /* -------------------------------------------------------- */
 
 
-#home{
+#home {
     position: relative;
     height: 100%;
     display: flex;
@@ -57,17 +68,17 @@ li{
     align-items: center;
 }
 
-#landing-title-image{
+#landing-title-image {
     position: absolute;
     z-index: -1;
-    top:0;
+    /* top:0;
     left:0;
     right:0;
-    bottom:0
+    bottom:0 */
 }
 
 
-#landing-titles{
+#landing-titles {
     display: flex;
     flex-direction: column;
     z-index: 1;
@@ -77,46 +88,98 @@ li{
     padding: 10px;
 }
 
-#landing-button{
-    width:100px;
-    margin-top:50px;
+#landing-button {
+    width: 100px;
+    margin-top: 50px;
+}
+
+#table-image {
+    width: 90%;
 }
 
 
 
-#landing-info-checklist{
-text-align: left;
-padding-left: 0px;
+#landing-info-checklist {
+    text-align: left;
+    padding-left: 0px;
 }
 
-.landing-info-check{
-    height:25px;
-    padding:5px;
+.landing-info-check {
+    height: 25px;
+    padding: 5px;
 }
 
-#landing-seo-image, #smallblob-image{
-    margin-top:auto;
+#landing-seo-image,
+#smallblob-image {
+    margin-top: auto;
     position: absolute;
     z-index: -1;
 }
 
-.landing-seo-icon{
-    width:100px;
+#seotitle {
+    text-align: left;
+    justify-content: baseline;
+    align-items: baseline;
 }
 
-.landing-seo-text{
-    margin:5px;
+.landing-seo-icon {
+    width: 100px;
 }
 
-#seo-button{
-    background-color: #b7dab2 ;
+.landing-seo-text {
+    margin: 5px;
+}
+
+#seo-button {
+    background-color: #b7dab2;
     color: #000;
 }
 
-#smallblob{
+#smallblob {
     margin: 50px;
     justify-content: center;
+    padding: 0px;
 }
-#smallblob-image{
+
+#smallblob-image {
     width: 90%;
+    margin-bottom: auto;
+    position: absolute;
+}
+
+#landing-contact {
+    margin-top: 150px;
+    display: grid;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact-image {
+    /* float: right; */
+    z-index: -1;
+    position: absolute;
+    right: 0;
+}
+
+#landing-contact-form {
+    background-color: #794faf;
+    border-radius: 5px;
+    z-index: 3;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    /* position: relative; */
+}
+
+#message {
+    height: 200px;
+}
+
+#contact-form {
+    width: 80%;
+    height: auto;
 }
