@@ -1,422 +1,23 @@
 body {
     font-family: "Montserrat", sans-serif;
-    background-image: linear-gradient(black, #241734);
-    color: white;
     margin: 0px;
-    overflow: auto;
-}
-
-
-.home {
-    margin: 0px;
-    text-align: center;
-}
-
-.lightpurple{
-    color: #794faf;
-}
-.purple{
-    color: #241734;
-}
-/* -------------------- NAVBAR ---------------------------------- */
-#nav {
-    background-color: #000000;
-    height: 100px;
+    /* overflow:hidden; */
     width: 100vw;
-    display: flex;
-    color: white;
-    text-align: center;
-    float: left;
-    top: 0;
-    margin: 0px;
-    padding: 0px;
-    /* padding-left: 25px; */
-    align-items: center;
-    position: fixed;
-    z-index: 10;
+    height:100vh;
+    
 }
-
-#navbar {
-    list-style-type: none;
-    margin: 0px;
-    padding: 10px;
-    opacity: .9;
-    width: 100%;
-    right: 0;
-}
-
-.navtitle {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 26px;
-    position: relative;
-    float: left;
-    margin: 0px;
-    color: white;
-    margin-left:25px;
-}
-
-#mylogo{
-    height:90px;
-    padding:0px;
-    margin:0px;
-}
-
-
-.dropbtn {
-    background-color: #00000000;
-    /* width: 100px; */
-    height: 100px;
-    color: white;
-    font-size: 50px;
-    border: none;
-    position: relative;
-    margin: 0px;
-    padding:0px;
-    align-items: center;
-    right: 0;
-    top:0;
-    margin-right: 50px;
-}
-
-.dropdown {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin: 0px 10px;
-    right: 0;
-    top: 0;
-    width: 30px;
-    overflow: visible;
-    align-items: end;
-}
-
-.dropdown-content {
-    display: none;
-    position: relative;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: flex;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1
-}
-
-.dropdown:hover .dropdown-content {
-    display: flex;
-    flex-direction: column;
-    z-index: 10;
-    margin-top: 0px;
-    position: relative;
-}
-
-/* ----------------------------------------------------------------------------- */
 
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 25px;
-    padding-top: 10px;
-    position: relative;
-
 
 }
 
-#mlogo{
-    vertical-align: middle;
-    padding-top: 100px;
-}
-
-/* ---------------- LANDING IMAGE -------------------------------- */
-#headerimage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
- /* width: 100%; */
-    height: auto;
-   
-}
-
-.homeimage {
-    /* height: 400px; */
-    width: 100vw;
-    margin: 0px;
-    padding: 0px;
-    top:0;
-    /* margin-top:100px; */
-    /* position: absolute; */
-
-
-}
-
-
-#hometitles {
-    z-index: 3;
-    /* padding-left: 25px; */
-    /* margin-top: 50px; */
-    color: white;
-    height: auto;
-    padding:0px auto;
-    justify-content: baseline;
-    background-color: #794faf;
-    /* width: 100%; */
-}
-
-#hometitle {
-    font-size: 45px;
-    text-shadow: 0px 0px 5px #000000;
-    width: 100%;
-}
-
-#hometit{
-    font-size: 56px;
-    margin:0px;
-    padding:0px;
-    color:white ;
-
-}
-
-#homesubtitle {
-    font-size: 22px;
-    text-shadow: 0px 0px 5px #000000;
-
-}
-
-#hometext{
-    margin: 0px 25px;
-    margin-top:0px;
-
-}
-
-#inqbutton{
-    background-color: #241734;
-    position: relative;
-    margin-top:25px;
-}
-/* ----------------------------WIDGETS------------------------------ */
-.widgets {
-    width:90%;
-  padding-top: 50px;
-    display: inline-flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-   
-}
-
-.widget {
-    background-color: #794faf;
-    width: 40%;
-    height: 250px;
-    margin: 25px;
-    margin-top:0px;
-    position: relative;
-    /* border-radius: 5px; */
-    text-align: center;
-    align-items: center;
-    box-shadow: 0px 0px 20px#794faf70;
-    border-top:4px solid white;
-    display: inline-flex;
-    flex-direction: row;
-}
-
-.widgetwrap{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding:10px;
-    padding-bottom: 0px;
-}
-.widgettitle {
-    padding: 10px;
-    right: 0;
-    font-size: 32px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.widgettext {
-    padding: 10px;
-    padding-top: 0px;
-
-}
-
-.widgetimage{
-    height: 45px;
-    /* padding:10px; */
-}
-/* --------------------------- FAQ ---------------------------- */
-
-#faq {
-    display: flex;
-}
-
-#faqtitle {
-    text-align: center;
-}
-
-.faq {
-    text-align: center;
-    font-size: 16px;
-    width: 90%;
-}
-
-.faqhead {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    position: relative;
-}
-
-.faqbutt {
-    background-color: #00000000;
-    color: white;
-    font-size: 20px;
-    border: 0px;
-    height: 25px;
-    right: 0;
-    position: absolute;
-    margin-right: 25px;
-    width: 100%;
-    height: 100%;
-    text-align: right;
-    position: absolute;
-    z-index:10;
-}
-
-
-#faqbutton {
-    padding: 15px;
-    margin-top: 25px;
-    width: 100px;
-   
-}
-
-.faq1{
-    text-align:left;
-    width:80%;
-    position: relative;
-    z-index: 1;
-}
-
-.faq2 {
-    text-align: left;
-    display: none;
-}
-
-/* ------------------- MAP ------------------------ */
-
-#map {
-    /* width:100%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-
-}
-
-#mapframe {
-    height: 50vh;
-    width: 90%;
-    padding-bottom: 0px;
-    display: flex;
-    position: relative;
-    z-index:   5;
-
-}
-
-#maptitle{
-    z-index:   5;
-
-}
-
-#stack, #stack2{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-}
-
-
-
-#gridbackground, #gridbackgroundfy, #gridbackgroundf, #gridbackgroundy{
-    position: relative;
-    z-index: 1;
-    width: 100vw;
-    float:left;
-    left:0;
-}
-
-#stack2{
-    transform: scaleX(-1);
-}
-/* 
-#gridbackgroundfy {
-    transform: scaleX(-1);
-
-    
-}
-
-
-
-
-#gridbackgroundy{
-    transform: scaleX(1);
-
-} */
-
-#gridbackgroundf,  #gridbackgroundy{
-    transform: scaleY(-1);
-
-}
-
-
-
-
-/* ----------------------------------------------------------------------------- */
-
-.sectiontitle,
-.faq1 {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 36px;
-}
-
-
-#form2 {
-    /* width: 100%; */
-    align-items: center;
-    height: 100%;
-    display: flex;
-    position: relative;
-    margin: 0px;
-}
-
-#abttitle {
-    font-family: 'Montserrat';
-}
-
-#abttext {
-    display: block;
-    width: 90%;
-    /* text-align: center; */
+.divider{
+   margin-top:auto;
 
 }
 
@@ -433,310 +34,76 @@ body {
     text-align: center;
 }
 
-/* ---------------------FOOTER----------------------------- */
 
-#footer {
-    background-color: #000000;
-    bottom: 0;
+.main-subtitle{
+    font-size: medium;
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    align-items:  center;
+
+}
+
+/* -------------------------------------------------------- */
+
+
+#home{
     position: relative;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
-}
-
-#footertitle,
-#copyright {
-    padding-left: 10px;
-    padding-bottom: 2px;
-    padding-top: 2px;
-    margin: 0px;
-}
-
-#footerlist {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    /* background-color: #333; */
-    /* opacity: .5; */
-    /* width: 90%; */
-    right: 0;
     align-items: center;
+}
+
+#landing-title-image{
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0
+}
+
+
+#landing-titles{
     display: flex;
-    flex-direction: row;
-    /* height:50px; */
-}
-
-#footercontainer {
-    display: flex;
-    flex-direction: row;
-}
-
-.footerlink {
-    color: white;
-    text-align: center;
-    height: 100%;
-    padding: 10px;
-    font-size: 16px;
-    float: left;
-}
-
-
-/* .footericon {
-    text-align: center;
-    padding: 10px;
-    float: right;
-    width: 30px;
+    flex-direction: column;
+    z-index: 1;
     position: relative;
-} */
-
-/* --------------------------LOGOS--------------------------------- */
-
-.logosubtitle{
-    justify-content: baseline;
-}
-
-/* ------------- SERVICES PAGE ----------------------------------- */
-#services{
-    display: block;
-    position: relative;
-    justify-content:left;
-
-}
-
-#serviceintro{
-    background-color: #241734;
+    /* text-align: center; */
+    align-items: center;
     padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px #794faf;
-    border-top: 5px solid #794faf ;
-}
-.servicetitle{
-    justify-content:left;
-    align-items:baseline;
-    font-family: "Montserrat", sans-serif;
-    font-size: 26px;
-
-}
-.servicesubtitle{
-    font-family: "Montserrat", sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    position: relative;    
-    padding-left:25px;
 }
 
-.serviceicon{
-    /* height:50px; */
+#landing-button{
+    width:100px;
+    margin-top:50px;
+}
+
+
+
+#landing-info-checklist{
+text-align: left;
+padding-left: 0px;
+}
+
+.landing-info-check{
+    height:25px;
+    padding:5px;
+}
+
+#landing-seo-image{
+    margin-top:auto;
+    position: absolute;
+    z-index: -1;
+}
+
+.landing-seo-icon{
     width:100px;
 }
 
-.serviceheads{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-/* -------------------------------------------------------------- */
-#contactcontainer{
-    margin:0px;
-    padding:0px;
-}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    /* width: 90%; */
-    align-items: center;
-    justify-content: center;
-    background-color: #794faf47;
-    border-radius: 5px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    z-index:5;
-
-}
-
-#homecontact {
-    background-color: #00000080;
-
-}
-
-
-#names {
-    display: flex;
-    flex-direction: row;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    justify-content: space-between;
-
-}
-
-.contactsubtext{
-    text-align: center;
-    margin:50px; 
-    margin-top:0px;
-}
-
-
-.form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    position: relative;
-}
-
-.inp {
-    border: 0px;
-    padding: 10px;
-    margin: 2px;
-
-}
-
-.inpN {
-    border: 0px;
-    padding: 10px;
-    margin: 2px;
-    height: 25px;
-    width: 100%;
-}
-
-#contact-form {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 100%
-}
-
-#contactsubtitle {
-    padding-top: 0;
-}
-
-#message {
-    height: 100px;
-}
-
-#form,
-#aboutbox {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    position: relative;
-    /* height: calc(100vh - 150px); */
-
-}
-#form{
-    width: 100%;
-}
-
-#aboutbox {
-    padding-top: 0px;
-}
-
-/* --------------------PRICING BOX------------------ */
-
-
-#pricingbox{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    padding: 0px;
-    margin: 25px;
-    background-color: #00000080;
-    border: 2px solid #794faf80;
-    border-radius: 5px;
-}
-
-
-#pricingtitle{
-    background-color: #794faf80 ;
-    width: 100%;
-    position: relative;
-    /* top:0; */
-    justify-content: center;
-    text-align: center;
-}
-
-#pricebox{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    padding:10px;
-}
-
-#price{
-    font-size: 50px;
-    font-weight: 500;
-}
-
-#per{
-    font-size: 22px;
-}
-
-.pricingpoint{
-    padding:10px;
-    
-}
-#pricingpoints{
-    margin:25px;
-}
-
-#pricecontact{
-    margin:25px;
-}
-/* --------------------------------------------------------- */
-#scrollbox {
-    display: flex;
-    flex-direction: row;
-
-}
-
-.scrollbin {
-    width: 100px;
-    height: 100px;
-    background-color: #0CA4A5;
-    margin: 10px;
-
-}
-
-
-@media (min-width: 1024px) {
-
-    #page{
-        position: relative;
-        margin:auto;
-    }
-
-    #homeimage{
-        height:auto;
-    }
-    .widgets {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding:0;
-        margin: 25px;
-        /* height:100%; */
-
-    }
-
-    .widget{
-        position: relative;
-        /* height:100%; */
-        min-height: 300px;
-        max-height:500px;
-        margin-bottom:0;
-        overflow-y: auto;
-        /* height:40%; */
-    }
+.landing-seo-text{
+    margin:5px;
 }
