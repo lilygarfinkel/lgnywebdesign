@@ -28,16 +28,30 @@
 
     <!-- LANDING PAGE -->
     <div id="home">
+        <div id="nav" class="navbar">
+            <div id='navtitle' class="navtitle">
+                <p>LGNY</p>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">≡</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div id='landing-titles'>
                 <h1 id="landing-title" class="main-title">
                     Small Business Website Design
                 </h1>
                 <h2 id="landing-subtitle" class="main-subtitle">
-                    We offer 100% unique hand-coded websites - no templates or site builder used. This means faster loading speeds, custom page designs, and less maintenance fees.
+                    We offer 100% unique hand-coded websites - no templates or site builder used. This means faster
+                    loading speeds, custom page designs, and less maintenance fees.
                 </h2>
                 <a id='landing-button' class="button" href="contact.html">
-                    Inquire Today    
+                    Inquire Today
                 </a>
             </div>
             <img alt='' id="landing-title-image" src="figma/landing-background.svg" />
@@ -52,24 +66,24 @@
             <h2 id="landing-info-subtitle" class="main-subtitle">
                 We specialize in custom websites for small businesses. We hand code our websites from scratch, meaning
                 we can ensure fast loading times and consistent page structures.
-                <br/><br/>
+                <br /><br />
                 By working with us, you get more than just the basic website. You also get:
             </h2>
             <ul id="landing-info-checklist">
-                <li> 
-                    <img class="landing-info-check" alt="checkmark" src="check.svg"/> 
+                <li>
+                    <img class="landing-info-check" alt="checkmark" src="check.svg" />
                     Longterm site maintenance
                 </li>
-                <li>  
-                   <img class="landing-info-check" alt="checkmark" src="check.svg"/> 
+                <li>
+                    <img class="landing-info-check" alt="checkmark" src="check.svg" />
                     Unlimited edits
                 </li>
                 <li>
-                    <img class="landing-info-check" alt="checkmark" src="check.svg"/> 
+                    <img class="landing-info-check" alt="checkmark" src="check.svg" />
                     Custom forms and graphics
                 </li>
                 <li>
-                    <img class="landing-info-check" alt="checkmark" src="check.svg"/> 
+                    <img class="landing-info-check" alt="checkmark" src="check.svg" />
                     Google Analytics management
                 </li>
             </ul>
@@ -78,60 +92,78 @@
             </a>
         </div>
         <div id="landing-seo" class="container">
-            <img alt="" id='landing-seo-image' src="figma/seo-background.svg"/>
-           <h1 id="seotitle" class="">We make your website easy to find</h1>
+            <img alt="" id='landing-seo-image' src="figma/seo-background.svg" />
+            <h1 id="seotitle" class="">We make your website easy to find</h1>
             <div class="container">
-                <img alt="" class='landing-seo-icon'src="globe.svg"/>
+                <img alt="" class='landing-seo-icon' src="globe.svg" />
                 <h3 class="landing-seo-text">Web Accessibility</h3>
-                <p class="landing-seo-text"> By staying up to date with the latest web accessibility compliance guidelines, we ensure your website will be easy top understand and navigate for all users.</p>
+                <p class="landing-seo-text"> By staying up to date with the latest web accessibility compliance
+                    guidelines, we ensure your website will be easy top understand and navigate for all users.</p>
             </div>
             <div class="container">
-                <img alt="" class='landing-seo-icon'src="seo.svg"/>
+                <img alt="" class='landing-seo-icon' src="seo.svg" />
                 <h3 class="landing-seo-text">Search Engine Optimization</h3>
-                <p class="landing-seo-text"> By staying up to date with the latest web accessibility compliance guidelines, we ensure your website will be easy top understand and navigate for all users.</p>
-            </div> <div class="container"></div>
-                <img alt="" class='landing-seo-icon'src="qrblob.svg"/>
-                <h3 class="landing-seo-text">QR Code Management</h3>
-                <p class="landing-seo-text"> By staying up to date with the latest web accessibility compliance guidelines, we ensure your website will be easy top understand and navigate for all users.</p>
+                <p class="landing-seo-text"> By staying up to date with the latest web accessibility compliance
+                    guidelines, we ensure your website will be easy top understand and navigate for all users.</p>
             </div>
-            <a id='seo-button' class="button" href="about.html">
-                Learn More
-            </a>
-            <div id="smallblob" class="container">
-                <img id='smallblob-image'alt="" src="smallblob.svg"/>
-                <p id="smallblob-text"><b>At LGNY, we value consistency and professionalism. As a small business ourselves, we understand the importance of clear communication, efficient response times, and exquisite results.</b> </p>
-            </div>
-            
+            <div class="container"></div>
+            <img alt="" class='landing-seo-icon' src="qrblob.svg" />
+            <h3 class="landing-seo-text">QR Code Management</h3>
+            <p class="landing-seo-text"> By staying up to date with the latest web accessibility compliance guidelines,
+                we ensure your website will be easy top understand and navigate for all users.</p>
+        </div>
+        <a id='seo-button' class="button" href="about.html">
+            Learn More
+        </a>
+        <div id="smallblob" class="container">
+            <img id='smallblob-image' alt="" src="smallblob.svg" />
+            <p id="smallblob-text"><b>At LGNY, we value consistency and professionalism. As a small business ourselves,
+                    we understand the importance of clear communication, efficient response times, and exquisite
+                    results.</b> </p>
+        </div>
 
-            <div id="landing-contact" class="container">
-                <div id="landing-contact-form">
-                    <h2 id="contact-title" >Get in Touch</h2>
-                   <h3 class="contact-subtitle">Contact us today!</h3>
-                    <div id="contact-form">
-                        <form class='form' action="https://formspree.io/f/mzzpqddq" method="POST">
-                            <input type="hidden" name="_subject" value="Contact request from personal website" />
-                            <div id="names">
-                                <input type="text" name="_fname" class="inpN" placeholder="First Name" required>
-                                <input type="text" name="_lname" class="inpN" placeholder="Last Name" required>
-                            </div>
-                            <input type="email" name="_replyto" class="inp" placeholder="Email Address" required>
-                            <textarea name="message" class='inp' id='message' placeholder="Type your message"
-                                required></textarea><br/>
-                            <button type="submit" id="contactbutton" class="button">Send</button>
-                        </form>
-                    </div>
+
+        <div id="landing-contact" class="container">
+            <div id="landing-contact-form">
+                <h2 id="contact-title">Get in Touch</h2>
+                <h3 class="contact-subtitle">Contact us today!</h3>
+                <div id="contact-form">
+                    <form class='form' action="https://formspree.io/f/mzzpqddq" method="POST">
+                        <input type="hidden" name="_subject" value="Contact request from personal website" />
+                        <div id="names">
+                            <input type="text" name="_fname" class="inpN" placeholder="First Name" required>
+                            <input type="text" name="_lname" class="inpN" placeholder="Last Name" required>
+                        </div>
+                        <input type="email" name="_replyto" class="inp" placeholder="Email Address" required>
+                        <textarea name="message" class='inp' id='message' placeholder="Type your message"
+                            required></textarea><br />
+                        <button type="submit" id="contactbutton" class="button">Send</button>
+                    </form>
                 </div>
-                <img alt="" id="contact-image" src="figma/contact-background.svg"/>
-
             </div>
-
+            <img alt="" id="contact-image" src="figma/contact-background.svg" />
 
         </div>
-       
+
+        <div id="footer" class="navbar">
+            <div  class="footer-content">
+                <p class="navtitle">LGNY</p>
+            </div>
+            <div id="footer-copyright">
+                <p>© 2024 LGNY Web Designs</p>
+            </div>
+            <div class="footer-content">
+                <a class='footer-link'href="index.html">Home</a>
+                <a class='footer-link'href="about.html">About</a>
+                <a class='footer-link' href="contact.html">Contact</a>
+            </div>
+        </div>
+
+    </div>
 
 
 
-   
+
 
     <script>
         function showFAQ(e) {
