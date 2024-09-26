@@ -24,6 +24,8 @@ body {
 
 .divider {
     margin-top: auto;
+    justify-content: center;
+    text-align: center;
 
 }
 
@@ -65,7 +67,7 @@ li {
     margin: 0px;
     padding: 0px;
     align-items: center;
-    position: fixed;
+    position: relative;
     z-index: 10;
 }
 
@@ -197,7 +199,7 @@ li {
     margin-top: 50px;
 }
 
-#table-image {
+#table-image, #site-image {
     width: 90%;
 }
 
@@ -328,4 +330,31 @@ li {
 #contactbutton {
     width: 100%;
     margin: 10px 0px;
+}
+
+#service-landing{
+    position: relative;
+    display: grid;
+}
+#services-titles{
+    padding-left:10px;
+    left:0;
+    position: absolute;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    text-align: left;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#service-title-image{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#service-text{
+    position: relative;
+    margin-top:auto;
+    margin-left:10px;
 }
