@@ -19,69 +19,62 @@
 
 <body>
 
-
-    <div id="contacts">
-        <div class="container">
-            <div id="nav">
-                <div class="navtitle">
-                    <p>LGNY</p>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">≡</button>
-                    <div class="dropdown-content">
-                        <a href="index.html">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
+    <div id="services">
+        <div id="nav" class="navbar">
+            <div id='navtitle' class="navtitle">
+                <p>LGNY</p>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">≡</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
                 </div>
             </div>
-            <!-- TITLE IMAGE -->
-            <div id="headerimage"></div>
-            <div id="hometitles" class="container">
-                <h1 id="hometitle" class="sectiontitle">Contact Us</h1>
-
-            </div>
-            <img title='welcome' id='homeimage' src="purplebackground.svg" />
         </div>
-
-        <div id="page">
-        <div id="form">
-            <div id='contactcontainer'>
-
-                <div class="contact">
-                    <h2 id="contacttitle" class="sectiontitle">Get in Touch</h2>
-                   <h3 class="contactsubtext">Contact us and begin your journey to an elegant and established online presence!</h3>
-                    <div id="contact-form">
-                        <form class='form' action="https://formspree.io/f/mzzpqddq" method="POST">
-                            <input type="hidden" name="_subject" value="Contact request from personal website" />
-                            <div id="names">
-                                <input type="text" name="_fname" class="inpN" placeholder="First Name" required>
-                                <input type="text" name="_lname" class="inpN" placeholder="Last Name" required>
-                            </div>
-                            <input type="email" name="_replyto" class="inp" placeholder="Email Address" required>
-                            <textarea name="message" class='inp' id='message' placeholder="Type your message"
-                                required></textarea>
-                            <button type="submit" id="contactbutton" class="button">Send</button>
-                        </form>
-                    </div>
-                </div>
+        <div id="service-landing" >
+            <div id='services-titles'>
+                <h1 id="services-title" class="main-title">
+                    Contact
+                </h1>
             </div>
+            <img alt='' id="service-title-image" src="figma/services-background.svg" />
         </div>
     </div>
-</div>
-    <!-- FOOTER -->
-    <div id="footer">
-        <p id="footertitle" class="navtitle">LGNY Web Design</p>
-        <p id="copyright"> © 2024 LGNY Web Design LLC</p>
-        <div id="footercontainer">
-            <ul id="footerlist">
-                <li><a class="footerlink" href="index.html">Home</a></li>
-                <li><a class="footerlink" href="about.html">Services</a></li>
-                <li><a class="footerlink" href="contact.html">Contact</a></li>
-                <li> </li>
-            </ul>
-            <!-- <a class="footericon" href="https://www.linkedin.com/in/lisa-smith-gpc-a3a03219"><img title='linkedin icon'
-                    src="linkedin.png"></img></a> -->
+    <div id="service-contact" class="container">
+        <div id="seo-contact-form">
+            <h2 id="contact-title">Get in Touch</h2>
+            <h3 class="contact-subtitle">Contact us today!</h3>
+            <div id="contact-form">
+                <form class='form' action="https://formspree.io/f/mzzpqddq" method="POST">
+                    <input type="hidden" name="_subject" value="Contact request from personal website" />
+                    <div id="names">
+                        <input type="text" name="_fname" class="inpN" placeholder="First Name" required>
+                        <input type="text" name="_lname" class="inpN" placeholder="Last Name" required>
+                    </div>
+                    <input type="email" name="_replyto" class="inp" placeholder="Email Address" required>
+                    <textarea name="message" class='inp' id='message' placeholder="Type your message"
+                        required></textarea><br />
+                    <button type="submit" id="contactbutton" class="button">Send</button>
+                </form>
+            </div>
+        </div>
+        <img alt="" id="contact-image" src="figma/orange-blob.svg" />
+
+    </div>
+
+    <div id="footer" class="navbar">
+        <div  class="footer-content">
+            <p class="navtitle">LGNY</p>
+        </div>
+        <div id="footer-copyright">
+            <p>© 2024 LGNY Web Designs</p>
+        </div>
+        <div class="footer-content">
+            <a class='footer-link'href="index.html">Home</a>
+            <a class='footer-link'href="services.html">Services</a>
+            <a class='footer-link' href="contact.html">Contact</a>
         </div>
     </div>
 </body>
