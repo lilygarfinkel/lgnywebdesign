@@ -172,10 +172,15 @@ li {
     flex-direction: column;
     align-items: center;
 }
+#landing{
+    display:grid;
+}
 
 #landing-title-image {
-    position: absolute;
+    /* position: absolute; */
     z-index: -1;
+    grid-column: 1;
+    grid-row: 1;
     /* top:0;
     left:0;
     right:0;
@@ -192,6 +197,8 @@ li {
     align-items: center;
     padding: 10px;
     padding-top: 100px;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 #landing-button {
@@ -351,6 +358,7 @@ li {
 #service-title-image{
     grid-row: 1;
     grid-column: 1;
+    width:100%;
 }
 
 #service-text{
