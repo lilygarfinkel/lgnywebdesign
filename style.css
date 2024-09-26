@@ -264,6 +264,7 @@ li {
     text-align: center;
     justify-content: center;
     margin-top: 50px;
+    padding: 0px 10px;
 }
 .landing-blob-section{
     display:grid;
@@ -324,10 +325,18 @@ margin-left:13px;
     position: absolute;
 }
 
+.small-blob-text{
+    justify-content: baseline;
+    text-align: start;
+    padding: 0px 5px;
+}
 .small-blob-heading{
     justify-content: baseline;
     text-align: start;
     margin-bottom: 0px;
+}
+.small-blob-p{
+    margin-top:5px;
 }
 
 #landing-contact {
@@ -387,7 +396,9 @@ margin-left:13px;
 #names {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    align-items:baseline;
 
 
 }
@@ -446,10 +457,20 @@ margin-left:13px;
     background-color: #00000000;
     grid-row: 1;
     grid-column: 1;
-    width:40%;
+    /* width:40%; */
     position: relative;
     justify-content: center;
 
+}
+
+#contact-contact-form{
+    margin:auto;
+    background-color: #00000000;
+    grid-row: 1;
+    grid-column: 1;
+    width:40%;
+    position: relative;
+    justify-content: center;
 }
 
 #service-contact {
@@ -482,4 +503,13 @@ margin-left:13px;
 
 #contact-page-subtitle{
     font-size: 14px;
+}
+
+.pricetext{
+    margin:0px;
+}
+#pricebullets{
+    margin:0px 25px;
+    padding:0px 25px ;
+   text-align: start;
 }
