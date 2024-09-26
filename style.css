@@ -257,6 +257,43 @@ li {
 .landing-seo-text {
     margin: 5px;
 }
+#landing-blobs{
+    display:flex; 
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.landing-blob-section{
+    display:grid;
+}
+
+.orangeblob{
+    grid-row:1;
+    grid-column: 1;
+    z-index: -1;
+    width: 100%;
+}
+.small-blob-over{
+    grid-row:1;
+    grid-column: 1;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-blob-icon{
+width:50px;
+}
+.small-blob-text{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
+    align-items: baseline;
+}
 
 #seo-button {
     background-color: #b7dab2;
@@ -275,6 +312,11 @@ li {
     width: 90%;
     margin-bottom: auto;
     position: absolute;
+}
+
+.small-blob-heading{
+
+    margin-bottom: 0px;
 }
 
 #landing-contact {
