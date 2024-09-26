@@ -508,6 +508,11 @@ margin-left:13px;
 .pricetext{
     margin:0px;
 }
+
+#pricetext{
+    font-size:26px;
+
+}
 #pricebullets{
     margin:0px 25px;
     padding:0px 25px ;
