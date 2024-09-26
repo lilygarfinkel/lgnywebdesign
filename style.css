@@ -261,6 +261,8 @@ li {
 #seo-button {
     background-color: #b7dab2;
     color: #000;
+    width:100px;
+    margin: 20px auto;
 }
 
 #smallblob {
