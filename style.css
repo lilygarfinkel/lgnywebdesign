@@ -281,26 +281,30 @@ li {
     /* margin-top: 150px; */
     display: grid;
     padding: 0;
-    width: 100%;
+    /* width: 100%; */
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 
 #contact-image {
     position: relative;
     z-index: -1;
-    width: 100%;
     grid-row: 1;
     grid-column: 1;
+  
+
+
 }
+
 
 #contact-title {
     margin: 0;
     margin-top: 10px;
 }
 
-#landing-contact-form, #seo-contact-form  {
+#landing-contact-form {
     grid-row: 1;
     grid-column: 1;
     background-color: #EFD2C5;
@@ -385,16 +389,44 @@ li {
 }
 
 #seo-contact-form {
+    margin:auto;
     background-color: #00000000;
+    grid-row: 1;
+    grid-column: 1;
+    width:40%;
+    position: relative;
+    justify-content: center;
+
 }
 
 #service-contact {
     /* margin-top: 150px; */
     display: grid;
-    padding: 0;
-    width: 100%;
+    margin:50px 0px;
+    position: relative;
+    /* width: 50%; */
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 50px 0px;
+    /* margin: auto; */
+}
+
+#contact-page-image{
+    transform: rotate(90deg);
+    /* height: 100vw; */
+    position: relative;
+    z-index: -1;
+    grid-row: 1;
+    grid-column: 1;
+    margin:100px 0px;
+
+}
+
+#contact-page-button{
+    width:100%;
+    background-color: #e9a283;
+}
+
+#contact-page-subtitle{
+    font-size: 14px;
 }
