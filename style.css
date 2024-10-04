@@ -468,7 +468,7 @@ margin-left:13px;
     background-color: #00000000;
     grid-row: 1;
     grid-column: 1;
-    width:40%;
+    width:50%;
     position: relative;
     justify-content: center;
 }
@@ -476,7 +476,7 @@ margin-left:13px;
 #service-contact {
     /* margin-top: 150px; */
     display: grid;
-    margin:50px 0px;
+    margin:25px 0px;
     position: relative;
     /* width: 50%; */
     align-items: center;
@@ -485,6 +485,9 @@ margin-left:13px;
     /* margin: auto; */
 }
 
+#email{
+    width: 100%;
+}
 #contact-page-image{
     transform: rotate(90deg);
     /* height: 100vw; */
