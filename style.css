@@ -47,12 +47,12 @@ body {
     font-size: medium;
 }
 
-li {
+/* li {
     list-style-type: none;
     display: flex;
     align-items: center;
 
-}
+} */
 
 .navbar {
     background-color: #69A4AB;
@@ -217,6 +217,8 @@ li {
 #landing-info-checklist {
     text-align: left;
     padding-left: 0px;
+    list-style-type: none;
+    
 }
 
 .landing-info-check {
@@ -291,7 +293,7 @@ li {
 
 .small-blob-icon{
 width:50px;
-margin-left:13px;
+margin: 0px 13px;
 }
 
 #webicon{
@@ -393,29 +395,38 @@ margin-left:13px;
 
 }
 
+.form{    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
 #names {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    align-items:baseline;
+    /* text-align: center; */
+    align-items: center;
+    justify-content:space-evenly;
+
 
 
 }
 
 .inpN {
-    width: 50%;
+    width: auto;
+    position: relative;
     border: none;
     padding: 5px;
-    margin: 3px 0px;
+    margin: 3px 5px;
 
 }
 
 .inp {
     width: 100%;
-    padding: 5px;
+    padding: 5px 0px;
     border: none;
-    margin: 3px 0px;
+    margin: 3px 5px;
 
 }
 
@@ -448,8 +459,10 @@ margin-left:13px;
 
 #service-text{
     position: relative;
+    margin:10px;
+
     margin-top:auto;
-    margin-left:10px;
+
 }
 
 #seo-contact-form {
@@ -462,6 +475,16 @@ margin-left:13px;
     justify-content: center;
 
 }
+
+#services-list{
+    padding:10px;
+    margin:10px;
+}
+ li.list{
+    list-style-type:square;
+    margin:10px;
+}
+
 
 #contact-contact-form{
     margin:auto;
