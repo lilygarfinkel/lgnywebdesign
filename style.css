@@ -226,6 +226,11 @@ body {
     padding: 5px;
 }
 
+.check{
+    display: flex;
+    align-items:center;
+}
+
 #landing-seo{
     display:grid;
     padding:0px;
