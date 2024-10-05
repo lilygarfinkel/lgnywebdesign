@@ -392,10 +392,15 @@ margin: 0px 13px;
 #contact-form{
     width: 90%;
     height: auto;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
 }
 
-.form{    display: flex;
+.form{   
+     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 90%;
@@ -407,15 +412,15 @@ margin: 0px 13px;
     flex-direction: row;
     /* text-align: center; */
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:space-between;
 
 
 
 }
 
 .inpN {
-    width: auto;
-    position: relative;
+    width: 50%;
+    /* position: relative; */
     border: none;
     padding: 5px;
     margin: 3px 5px;
@@ -423,8 +428,7 @@ margin: 0px 13px;
 }
 
 .inp {
-    width: 100%;
-    padding: 5px 0px;
+    padding: 5px 5px;
     border: none;
     margin: 3px 5px;
 
